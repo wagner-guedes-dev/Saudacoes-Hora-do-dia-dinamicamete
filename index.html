@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Hora do dia dinamico</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+   <div id="img">
+        <div id="botoes">
+            <div id="sistemaOp">
+                <input type="button" value="Horas baseadas no sistema operacional" onclick="carregar()">
+            </div>
+            <div id="alterar">
+                <input type="number" name="txthr" id="txthr" placeholder="Digite as horas (0 a 23)" onkeyup="test()" required>
+
+                <input type="button" value="Alterar" id="test" onclick="alterar()" disabled >
+            </div>
+        </div>
+        <header id="saudacao">
+            
+        </header>
+        <section>
+            <div id="msn">
+                
+            </div>
+        </section>
+            
+        <footer>
+         <p>&copy; WagnerProduções</p>
+        </footer>
+        
+    </div>
+   <script src="script.js"></script>
+
+</body>
+</html>
